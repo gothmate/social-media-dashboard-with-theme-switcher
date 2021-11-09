@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="dark">
+    <div class="container nav">
+      <div class="title">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="dark-to-light">
+        <label id="mode">Dark Mode</label>
+        <div class="holder">
+          <button
+            class="activate"
+            id="activate"
+            onclick="modeActivation()"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" class="container">
+      <div class="facebook-followers bloco dmode">
+        <div class="facebook">
+          <img src="./images/icon-facebook.svg" alt="facebook" />
+          <a href="#">gothmate</a>
+        </div>
+        <h2>1987</h2>
+        <p>FOLLOWERS</p>
+        <p>12 Today</p>
+      </div>
+
+      <div class="twitter-followers bloco dmode">
+        <div class="twitter">
+          <img src="./images/icon-twitter.svg" alt="twitter" />
+          <a href="#">@gothmate</a>
+        </div>
+        <h2>1044</h2>
+        <p>FOLLOWERS</p>
+        <p>99 Today</p>
+      </div>
+
+      <div class="instagram=followers bloco dmode">
+        <div class="instagram">
+          <img src="./images/icon-instagram.svg" alt="instagram" />
+          <a href="#">@gothmate</a>
+        </div>
+        <h2>11k</h2>
+        <p>FOLLOWERS</p>
+        <p>1099 Today</p>
+      </div>
+
+      <div class="youtube-followers bloco dmode">
+        <div class="youtube">
+          <img src="./images/icon-youtube.svg" alt="YouTube" />
+          <a href="#">gothmate</a>
+        </div>
+        <h2>8239</h2>
+        <p>FOLLOWERS</p>
+        <p>144 Today</p>
+      </div>
+    </div>
+
+    <div class="title">
+      <h2 class="">Overview Today</h2>
+    </div>
+
+    <div class="container secondary">
+      <div class="block-secondary">
+        <div class="overview">
+          <div class="title-overviews">
+            <p>Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="Page Views" />
+          </div>
+          <div class="info">
+            <h2>87</h2>
+            <div class="percent">
+              <img src="./images/icon-up.svg" alt="up-arrow" />
+              <p>3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class="title-overviews">
+            <p>Likes</p>
+            <img src="./images/icon-facebook.svg" alt="Likes" />
+          </div>
+          <div class="info">
+            <h2>52</h2>
+            <div class="percent">
+              <img src="./images/icon-down.svg" alt="down-arrow" />
+              <p>2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class="title-overviews">
+            <p>Hearts</p>
+            <img src="./images/icon-instagram.svg" alt="Likes Instagram" />
+          </div>
+          <div class="info">
+            <h2>5462</h2>
+            <div class="percent">
+              <img src="./images/icon-up.svg" alt="up-arrow" />
+              <p>2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class="title-overviews">
+            <p>Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="Profile Views" />
+          </div>
+          <div class="info">
+            <h2>52k</h2>
+            <div class="percent">
+              <img src="./images/icon-up.svg" alt="up-arrow" />
+              <p>1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class="info">
+            <p>Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="Retweets" />
+          </div>
+          <div class="info-overview">
+            <h2>117</h2>
+            <div class="percent">
+              <img src="./images/icon-up.svg" alt="up-arrow" />
+              <p>303%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview">
+          <div class="info">
+            <p>Likes</p>
+            <img src="./images/icon-twitter.svg" alt="Likes on twitter" />
+          </div>
+          <div class="info-overview">
+            <h2>507</h2>
+            <div class="percent">
+              <img src="./images/icon-up.svg" alt="up-arrow" />
+              <p>553%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview">
+          <div class="info">
+            <p>Likes</p>
+            <img src="./images/icon-youtube.svg" alt="Like on YouTube" />
+          </div>
+          <div class="info-overview">
+            <h2>107</h2>
+            <div class="percent">
+              <img src="./images/icon-down.svg" alt="down-arrow" />
+              <p>19%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview">
+          <div class="info">
+            <p>Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="Total Views" />
+          </div>
+          <div class="info-overview">
+            <h2>1407</h2>
+            <div class="percent">
+              <img src="./images/icon-down.svg" alt="down-arrow" />
+              <p>12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      <p>Challenge by</p>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://gothmate.github.io/" target="_blank"
+        ><span>Goth</span>mate</a
+      >.
+    </footer>
+
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
