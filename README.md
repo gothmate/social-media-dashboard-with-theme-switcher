@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My code](https://github.com/gothmate/social-media-dashboard-with-theme-switcher)
+- Live Site URL: [My live site](https://gothmate.github.io/social-media-dashboard-with-theme-switcher/)
 
 ### Built with
 
